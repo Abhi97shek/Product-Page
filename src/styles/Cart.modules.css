@@ -1,0 +1,32 @@
+.cart-container
+{   position: absolute;
+    top:9%;
+    right:5%;
+    width: 18%;
+    height: 25%;
+    box-shadow: -1px 7px 34px 6px rgba(0,0,0,0.35);
+    background-color: white;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.cart-head
+{
+    border-bottom: 1px solid  hsl(220, 14%, 75%);
+    padding-left: 20px;
+}
+
+.cart-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:4rem;
+    color: hsl(220, 14%, 75%);
+}
+
+.cart-body p{
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}

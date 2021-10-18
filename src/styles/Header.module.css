@@ -1,0 +1,60 @@
+.header
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 26px;
+   z-index:-1;
+}
+
+
+.list
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    flex-basis: 22%;
+    margin-right:auto;  
+    box-sizing: border-box;
+}
+.list_li{
+    align-self: stretch;
+}
+.list_li_a
+{
+    color: hsl(219, 9%, 45%);
+    text-decoration:none;
+    align-self: stretch;
+}
+.list_li_a:hover
+{
+    border-bottom: 2px solid orange;
+    font-weight: 700;
+}
+.headerRight{
+    display: flex;
+    flex-basis: 6%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.headerRight_profile
+{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.headerRight_profile:hover
+{
+    border:2px solid orange;
+}
+
+.cart_logo
+{
+    cursor: pointer;
+}

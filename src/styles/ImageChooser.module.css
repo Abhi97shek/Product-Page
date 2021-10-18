@@ -1,0 +1,36 @@
+.Main_Image
+{
+ margin-right: 10%;
+}
+
+.Main_Image img{
+    width: 450px;
+    height:450px;
+    border-radius: 15px;
+}
+
+.Image_Gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+}
+
+.Image_Gallery img{
+    width: 90px;
+    height: 90px;
+    margin-right:1.9rem;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.Image_Gallery img:hover{
+
+    opacity: 0.5;
+    border: 2px solid hsl(26, 100%, 55%);
+    cursor: pointer;
+}
+
+.Main_Image img
+{
+    cursor: pointer;
+}
